@@ -1,0 +1,9 @@
+.descricao-produto{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.promocao{
+    border: ridge 5px rgba(0, 255, 0, 0.5);
+}
