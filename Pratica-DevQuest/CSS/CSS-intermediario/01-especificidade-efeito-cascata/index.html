@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade e efeito cascata</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .container-cascata{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Efeito cascata</h1>
+
+    <div class="container-cascata" style="background-color: red;">
+        <h2>container cascata</h2>
+    </div>
+
+    <h2>Especificidade</h2>
+
+    <div class="container-especificidade">
+        <h2>Container Especificidade</h2>
+        <p id="meu-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam consequuntur sapiente placeat sequi ea, earum a incidunt odio fuga dolor, molestiae, tempora eius unde suscipit laborum impedit doloremque ducimus.</p>
+    </div>
+
+</body>
+</html>
