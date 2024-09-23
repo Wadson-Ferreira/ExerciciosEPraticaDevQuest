@@ -1,0 +1,9 @@
+ul{
+    list-style-image: url('./images/icone.png');
+    list-style: square url('./images/icone.png');
+    list-style-position: inside;
+}
+
+ul li{
+    border: 1px solid black;
+}
