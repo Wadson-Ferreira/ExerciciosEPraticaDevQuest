@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Esse elemento fica travado na tela quando o valor do position é static */
+.elemento-estatico{
+    position: static;
+    background-color: crimson;
+}
+
+/* No caso do relative indica que o elemento vai estar posicionado relativamente ao lugar em que ele foi criado na tela. Podendo move-lo a partir desse ponto */
+.elemento-relativo{
+    position: relative;
+    background-color: coral;
+    left: 100px;
+    bottom: 100px;
+}
+
+/* Em absolute o elemento vai se destacar na camada padrão colocando ele como se estive-se uma camada acima dos demais elementos. Assim o outro elemento estático presente no código html vai parar atrás dele. Também é possível move-lo como no postion relative*/
+.elemento-absoluto{
+    position: absolute;
+    background-color: darkcyan;
+    left: 200px;
+    top: 0px;
+}
+
+.elemento-relativo-com-filho{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214,212,212);
+}
+
+/* Quando colocamos o elemento absoluto dentro de um elemento com postion relative podemos move-lo livremente dentro do elemento com position relative ao invez de move-lo por toda viewport, assim podemos controlar melhor como o elemento absolute se comporta ao ajustarmos na tela. */
+.elemento-absoluto-com-pai{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 75px;
+    top: 75px;
+    background-color: darkcyan;
+}
