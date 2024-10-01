@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <!-- <h1>Picture com mobile first</h1>
+    <picture>
+        <source media="(min-width: 920px)" srcset="./images/desktop.jpg">
+        <source media="(min-width: 768px)" srcset="./images/tablet.jpg">
+        <source media="(min-width: 465px)" srcset="./images/celular.jpg">
+        <img src="./images/celular.jpg" alt="paisagem">
+    </picture> -->
+
+    <h1>Picture com desktop first</h1>
+    <picture>
+        <source media="(max-width: 465px)" srcset="./images/celular.jpg">
+        <source media="(max-width: 768px)" srcset="./images/tablet.jpg">
+        <source media="(max-width: 920px)" srcset="./images/desktop.jpg">
+        <img src="./images/desktop.jpg" alt="paisagem">
+    </picture> 
+</body>
+</html>
