@@ -1,0 +1,68 @@
+h1{
+    color: green;
+}
+
+p.paragrafo{
+    color: blue;
+}
+
+/* Se for separado por espaço vai ser estilizado o elemento filho de dentor da classe */
+
+.paragrafo{
+    background-color: red;
+}
+
+#menu{
+    margin-left: 100px;
+}
+
+/* não é uma boa prática ter mais de 1 ID por página no html O ID não é muito aconselhado para estilização, ele é mais aconselhado para JS*/
+
+*{
+    padding: 0;
+    font-size: 20px;
+}
+
+/* reset geral! Todos os elementos da página vão ter a regra difina entre chaves! */
+
+.titulo.laranja{
+    color: orange;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+
+p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: palevioletred;
+}
+
+div > p{
+    color: royalblue;
+}
+
+/* pai > filho */
+
+div + p{
+    background-color: blueviolet;
+}
+
+a[target=_blank]{
+    color: red;
+}
+
+a[href="google.com"]{
+    color: white;
+    background-color: black;
+}
+
+/* é possível fazer com outros valores */

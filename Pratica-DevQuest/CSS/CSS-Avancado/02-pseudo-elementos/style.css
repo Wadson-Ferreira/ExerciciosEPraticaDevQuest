@@ -1,0 +1,43 @@
+/* seletor::pseudo-elemento{
+propriedade: valor
+} */
+
+p::first-letter{
+    color: coral;
+}
+
+span{
+    display: block;
+}
+
+span::first-letter{
+    color: green;
+}
+
+/* Para funcionar na tag span é necessario altera-la para display block, pois a tag first-letter não funciona em tags display inline 
+funciona em qualquer tipo de seletor, desde que ele seja inline*/
+
+.primeira-linha::first-line{
+    color: red;
+}
+
+.primeira-linha::first-letter{
+    color: blueviolet;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+h2::before{
+    content: url(icone.png);
+}
+
+h2::after{
+    content: "";
+    background: url(icone.png) center center no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px; 
+}
