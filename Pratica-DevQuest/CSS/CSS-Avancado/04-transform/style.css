@@ -1,0 +1,20 @@
+img{
+    width: 200px;
+}
+
+img.scale{
+    transform: scale(2,1.5);
+}
+/* Aumenta o tamanho da imagem no eixo X,Y */
+
+img.rotate{
+    transform: rotate(20deg);
+}
+
+/* Rotaciona a imagem de acordo com o grau que decidir colocar! Para a imagem rotacionar corretamente ela precisa de ambos os eixos*/
+
+img.translate{
+    transform: translate(50px, 25px);
+}
+
+/* Movimenta a imagem de forma 2D no viewport de acordo com o eixo X e Y */
