@@ -1,0 +1,37 @@
+
+/*O align itens vai definir o comportamento padrão dos flex itens (elemento filho) de como eles estão dispostos ao longo do eixo transversal */
+
+.container{
+    height: 130px;
+}
+
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.baseline .item{
+    flex: 1;
+}
+
+.baseline .item:first-child{ 
+    padding-top: 20px;
+}
+
+/* O baseline vai alinhar de acordo com a linha base do texto, assim o independente do texto dentro dos itens o base line sempre vai tentar deixa-los alinhados pela linha base do texto. */
