@@ -1,0 +1,15 @@
+.flex{
+    height: 600px;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Para centralizar o h2 que é uma classe filha utilizamos as propriedades na div pai: display: flex, justify-content: center e align-items: center. Assim centralizamos o h2 dentro da div container*/
+
+.flex h2{
+    font-size: 60px;
+}
+
