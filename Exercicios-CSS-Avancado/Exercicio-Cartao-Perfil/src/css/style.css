@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background: url(../images/bubbles-background-1267ih1r32hj2ez3.jpg) no-repeat center;
+    height: 100vh;
+    font-family:"Kumbh Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* Remember to set the "heihgt" before of set the align-items then the element centralize the cross -sectional axis also */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    width: 320px;
+    height: 340px;
+}
+
+.card .profile-informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background: url('../images/bubbles-background-1267ih1r32hj2ez3.jpg') no-repeat top;
+    background-size: 100% 55%;
+}
+
+.card .profile-informations img{
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid white;
+}
+
+.card .profile-informations .city,
+.profile-numbers .info .counter-type{
+    color: var(--text-color);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.card .profile-informations .age{
+    color: var(--text-color);
+    font-weight: 400;
+    padding: 5px;
+}
+
+.card .profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card .profile-numbers .counter-type{
+    display: block;
+    padding: 5px;
+}
