@@ -12,9 +12,11 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 45px;
+    flex-direction: row wrap;
 }
 
-.header .menu, .header .logo{
+.header .menu, 
+.header .logo{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
