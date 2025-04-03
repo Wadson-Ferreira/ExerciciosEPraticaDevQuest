@@ -1,0 +1,19 @@
+.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+/* Sempre se adqua ao tamanho do container */
+
+.wrap {
+    display: flex;
+    /* flex-flow: row wrap;
+    flex-direction: column; */
+    flex-flow: column wrap;
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
